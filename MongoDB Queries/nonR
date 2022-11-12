@@ -1,1 +1,224 @@
+use MEANING_BUSSINES
+db.createCollection("Curriculum" , {
+       validator: {
+           $jsonSchema: {
+               bsonType: "object",
+               description: "Document describing a empresa",
+               required: ["description", "Formacion_academica", "Formacion_Complementaria","Experiencia_Laboral"],
+               properties: {
+                   "description": {
+                       bsonType: "string",
+                       description: "must be an string and is required.",
+                   },
+                   Formacion_academica: {
+                    bsonType: "object",
+                    required :  ["titulo", "fecha_egresado", "Universidad",],
+                    properties: {
+                        "titulo": {bsonType: "string"},
+                        "fecha_egresado": {bsonType: "date"},
+                        "Universidad": {bsonType: "string"},
+                   },
+
+                   },
+                   Formacion_Complementaria: {
+                    bsonType: "object",
+                    required :  ["curso", "fecha", "estado"],
+                    properties: {
+                        "curso": {bsonType: "string"},
+                        "fecha": {bsonType: "date"},
+                        "estado": {bsonType: "string"},
+                   },
+
+                   },
+                   Experiencia_Laboral: {
+                    bsonType: "object",
+                    required :  ["rol", "nombre_empresa", "detalle", "fecha_inicio", "fecha_final"],
+                    properties: {
+                        "rol": {bsonType: "string"},
+                        "nombre_empresa": {bsonType: "string"},
+                        "detalle": {bsonType: "string"},
+                        "fecha_inicio": {bsonType: "date"},
+                        "fecha_final": {bsonType: "date"},
+                   },
+
+                   },
+               }
+           }
+       }
+   });
+
+
+
+
+db.createCollection("empresa" , {
+       validator: {
+           $jsonSchema: {
+               bsonType: "object",
+               description: "Document describing a empresa",
+               required: ["nombre", "telefono", "Estructura_juridica","hubicacion","Empresario"],
+               properties: {
+                   "nombre": {
+                       bsonType: "string",
+                       description: "must be an string and is required.",
+                   },
+                   "telefono": {
+                       bsonType: "int",
+                       description: "must be an int and is required.",
+                   },
+                   Estructura_juridica: {
+                    bsonType: "object",
+                    required :  ["nombre", "detalle",],
+                    properties: {
+                        "nombre": {bsonType: "string"},
+                        "detalle": {bsonType: "string"},
+                   },
+
+                   },
+                   "hubicacion": {
+                       bsonType: "string",
+                       description: "must be an string and is required.",
+                   },
+                   Empresario: {
+                    bsonType: "object",
+                    required :  ["nombre", "apellidos", "telefono", "correo"],
+                    properties: {
+                        "nombre": {bsonType: "string"},
+                        "apellidos": {bsonType: "string"},
+                        "telefono": {bsonType: "int"},
+                        "correo": {bsonType: "string"},
+                   },
+                   },
+               }
+           }
+       }
+   });
+
+
+
+
+db.createCollection("Contador" , {
+   validator: {
+       $jsonSchema: {
+           bsonType: "object",
+           description: "Document describing a contador",
+           required: ["disponibilidad", "nombre", "apellido","fecha_nac","estado_civil" ,"telefono","correo","Curriculum_id"],
+           properties: {
+               "disponibilidad": {
+                   bsonType: "string",
+                   description: "must be an string and is required.",
+               },
+               "nombre": {
+                   bsonType: "string",
+                   description: "must be an string and is required.",
+               },
+               "apellido": {
+                   bsonType: "string",
+                   description: "must be an string and is required.",
+               },
+               "fecha_nac": {
+                   bsonType: "date",
+                   description: "must be an date and is required.",
+               },
+               "estado_civil": {
+                   bsonType: "string",
+                   description: "must be an string and is required.",
+               },
+               "telefono": {
+                   bsonType: "int",
+                   description: "must be an int and is required.",
+               },
+               "correo": {
+                   bsonType: "string",
+                   description: "must be an string and is required.",
+               },
+               "Curriculum_id": {
+                   bsonType: "objectId",
+                   description: "must be an objectId and is required.",
+               },
+           }
+       }
+
+   }
+});
+
+
+
+   db.createCollection("Oferta_laboral" , {
+   validator: {
+       $jsonSchema: {
+           bsonType: "object",
+           description: "Document describing a Oferta_laboral",
+           required: ["rol", "fecha_inicio", "fecha_final","horario","sueldo" ,"disponibilidad","Empresa_id"],
+           properties: {
+               "rol": {
+                   bsonType: "string",
+                   description: "must be an string and is required.",
+               },
+               "fecha_inicio": {
+                   bsonType: "date",
+                   description: "must be an date and is required.",
+               },
+               "fecha_final": {
+                   bsonType: "date",
+                   description: "must be an date and is required.",
+               },
+               "horario": {
+                   bsonType: "string",
+                   description: "must be an string and is required.",
+               },
+               "sueldo": {
+                   bsonType: "int",
+                   description: "must be an int and is required.",
+               },
+               "disponibilidad": {
+                   bsonType: "string",
+                   description: "must be an string and is required.",
+               },
+               "Empresa_id": {
+                   bsonType: "objectId",
+                   description: "must be an objectId and is required.",
+               },
+           }
+       }
+   }
+});
+
+
+
+db.createCollection("Contrato" , {
+   validator: {
+       $jsonSchema: {
+           bsonType: "object",
+           description: "Document describing a Contrato",
+           required: ["Estado", "fecha", "Tipo_de_pago","Oferta_Laboral_id","Contador_id"],
+           properties: {
+               "Estado": {
+                   bsonType: "string",
+                   description: "must be an string and is required.",
+               },
+               "fecha": {
+                   bsonType: "date",
+                   description: "must be an date and is required.",
+               },
+               Tipo_de_pago: {
+                bsonType: "object",
+                required :  ["nombre"],
+                properties: {
+                 "nombre": {bsonType: "string"},
+
+               },
+               },
+               "Oferta_Laboral_id": {
+                   bsonType: "objectId",
+                   description: "must be an objectId and is required.",
+               },
+               "Contador_id": {
+                   bsonType: "objectId",
+                   description: "must be an objectId and is required.",
+               },
+           }
+       }
+
+   }
+});
 
