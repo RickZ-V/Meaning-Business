@@ -1,0 +1,109 @@
+[{
+  "_id": {
+    "$oid": "6371ecf5daf24622bdc423ec"
+  },
+  "disponibilidad": "libre",
+  "nombre": "Adil",
+  "apellido": "Seco",
+  "fecha_nac": {
+    "$date": {
+      "$numberLong": "946857600000"
+    }
+  },
+  "estado_civil": "casado",
+  "telefono": 924323432,
+  "correo": "adilseco@gmail.com",
+  "Curriculum_id": {
+    "$oid": "6371e653daf24622bdc423d9"
+  }
+},{
+  "_id": {
+    "$oid": "6371ee20daf24622bdc423ee"
+  },
+  "disponibilidad": "libre",
+  "nombre": "Chloe",
+  "apellido": "Reyes",
+  "fecha_nac": {
+    "$date": {
+      "$numberLong": "-501379200000"
+    }
+  },
+  "estado_civil": "soltero",
+  "telefono": 967675665,
+  "correo": "Chloe@gmail.com",
+  "Curriculum_id": {
+    "$oid": "6371e9e7daf24622bdc423da"
+  }
+},{
+  "_id": {
+    "$oid": "6371ee5edaf24622bdc423ef"
+  },
+  "disponibilidad": "libre",
+  "nombre": "Judith",
+  "apellido": "Rovira",
+  "fecha_nac": {
+    "$date": {
+      "$numberLong": "-986947200000"
+    }
+  },
+  "estado_civil": "soltero",
+  "telefono": 956456546,
+  "correo": "Judith@gmail.com",
+  "Curriculum_id": {
+    "$oid": "6371eab5daf24622bdc423db"
+  }
+},{
+  "_id": {
+    "$oid": "6371eed1daf24622bdc423f0"
+  },
+  "disponibilidad": "libre",
+  "nombre": "Alejandro",
+  "apellido": "Marrero",
+  "fecha_nac": {
+    "$date": {
+      "$numberLong": "975283200000"
+    }
+  },
+  "estado_civil": "casado",
+  "telefono": 923424343,
+  "correo": "Alejandro@gmail.com",
+  "Curriculum_id": {
+    "$oid": "6371eb48daf24622bdc423dc"
+  }
+},{
+  "_id": {
+    "$oid": "6371ef07daf24622bdc423f1"
+  },
+  "disponibilidad": "libre",
+  "nombre": "Bryan",
+  "apellido": "Vicente",
+  "fecha_nac": {
+    "$date": {
+      "$numberLong": "597888000000"
+    }
+  },
+  "estado_civil": "soltero",
+  "telefono": 934522344,
+  "correo": "Bryan@gmail.com",
+  "Curriculum_id": {
+    "$oid": "6371ebc4daf24622bdc423dd"
+  }
+},{
+  "_id": {
+    "$oid": "6371ef4ddaf24622bdc423f2"
+  },
+  "disponibilidad": "libre",
+  "nombre": "Max",
+  "apellido": "Zaragoza",
+  "fecha_nac": {
+    "$date": {
+      "$numberLong": "642902400000"
+    }
+  },
+  "estado_civil": "casado",
+  "telefono": 923423434,
+  "correo": "Max@gmail.com",
+  "Curriculum_id": {
+    "$oid": "6371ec41daf24622bdc423de"
+  }
+}]

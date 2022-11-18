@@ -1,0 +1,253 @@
+[{
+  "_id": {
+    "$oid": "6371db4b08ef415eddf4bec7"
+  },
+  "rol": "contador",
+  "fecha_inicio": {
+    "$date": {
+      "$numberLong": "1641186000000"
+    }
+  },
+  "fecha_final": {
+    "$date": {
+      "$numberLong": "1703116800000"
+    }
+  },
+  "horario": "horas-8",
+  "sueldo": 2000,
+  "disponibilidad": "activo",
+  "Empresa_id": {
+    "$oid": "6371d36f08ef415eddf4beb9"
+  }
+},{
+  "_id": {
+    "$oid": "6371dd4308ef415eddf4bec9"
+  },
+  "rol": "contador",
+  "fecha_inicio": {
+    "$date": {
+      "$numberLong": "1614038400000"
+    }
+  },
+  "fecha_final": {
+    "$date": {
+      "$numberLong": "1765497600000"
+    }
+  },
+  "horario": "horas-9",
+  "sueldo": 3000,
+  "disponibilidad": "activo",
+  "Empresa_id": {
+    "$oid": "6371d4f208ef415eddf4beba"
+  }
+},{
+  "_id": {
+    "$oid": "6371dd9008ef415eddf4beca"
+  },
+  "rol": "contador",
+  "fecha_inicio": {
+    "$date": {
+      "$numberLong": "1656460800000"
+    }
+  },
+  "fecha_final": {
+    "$date": {
+      "$numberLong": "1734134400000"
+    }
+  },
+  "horario": "horas-10",
+  "sueldo": 1231,
+  "disponibilidad": "activo",
+  "Empresa_id": {
+    "$oid": "6371d6fb08ef415eddf4bebb"
+  }
+},{
+  "_id": {
+    "$oid": "6371dddb08ef415eddf4becb"
+  },
+  "rol": "contador",
+  "fecha_inicio": {
+    "$date": {
+      "$numberLong": "1662940800000"
+    }
+  },
+  "fecha_final": {
+    "$date": {
+      "$numberLong": "1855353600000"
+    }
+  },
+  "horario": "horas-9",
+  "sueldo": 4123,
+  "disponibilidad": "activo",
+  "Empresa_id": {
+    "$oid": "6371d75608ef415eddf4bebc"
+  }
+},{
+  "_id": {
+    "$oid": "6371de3508ef415eddf4becc"
+  },
+  "rol": "contador",
+  "fecha_inicio": {
+    "$date": {
+      "$numberLong": "1671753600000"
+    }
+  },
+  "fecha_final": {
+    "$date": {
+      "$numberLong": "1695945600000"
+    }
+  },
+  "horario": "horas-8",
+  "sueldo": 3421,
+  "disponibilidad": "activo",
+  "Empresa_id": {
+    "$oid": "6371d79608ef415eddf4bebd"
+  }
+},{
+  "_id": {
+    "$oid": "6371de6b08ef415eddf4becd"
+  },
+  "rol": "contador",
+  "fecha_inicio": {
+    "$date": {
+      "$numberLong": "1669766400000"
+    }
+  },
+  "fecha_final": {
+    "$date": {
+      "$numberLong": "1737676800000"
+    }
+  },
+  "horario": "horas-7",
+  "sueldo": 2334,
+  "disponibilidad": "activo",
+  "Empresa_id": {
+    "$oid": "6371d84e08ef415eddf4bebe"
+  }
+},{
+  "_id": {
+    "$oid": "6371debf08ef415eddf4bece"
+  },
+  "rol": "contador",
+  "fecha_inicio": {
+    "$date": {
+      "$numberLong": "1670112000000"
+    }
+  },
+  "fecha_final": {
+    "$date": {
+      "$numberLong": "1703289600000"
+    }
+  },
+  "horario": "horas-8",
+  "sueldo": 4352,
+  "disponibilidad": "activo",
+  "Empresa_id": {
+    "$oid": "6371d88908ef415eddf4bebf"
+  }
+},{
+  "_id": {
+    "$oid": "6371def908ef415eddf4becf"
+  },
+  "rol": "contador",
+  "fecha_inicio": {
+    "$date": {
+      "$numberLong": "1641081600000"
+    }
+  },
+  "fecha_final": {
+    "$date": {
+      "$numberLong": "1713484800000"
+    }
+  },
+  "horario": "horas-9",
+  "sueldo": 8674,
+  "disponibilidad": "activo",
+  "Empresa_id": {
+    "$oid": "6371d8d408ef415eddf4bec0"
+  }
+},{
+  "_id": {
+    "$oid": "6371df3b08ef415eddf4bed0"
+  },
+  "rol": "contador",
+  "fecha_inicio": {
+    "$date": {
+      "$numberLong": "1654992000000"
+    }
+  },
+  "fecha_final": {
+    "$date": {
+      "$numberLong": "1774483200000"
+    }
+  },
+  "horario": "horas-12",
+  "sueldo": 3243,
+  "disponibilidad": "activo",
+  "Empresa_id": {
+    "$oid": "6371d92308ef415eddf4bec1"
+  }
+},{
+  "_id": {
+    "$oid": "6371e4fd08ef415eddf4bed1"
+  },
+  "rol": "contador",
+  "fecha_inicio": {
+    "$date": {
+      "$numberLong": "1667952000000"
+    }
+  },
+  "fecha_final": {
+    "$date": {
+      "$numberLong": "1698796800000"
+    }
+  },
+  "horario": "horas-7",
+  "sueldo": 1234,
+  "disponibilidad": "activo",
+  "Empresa_id": {
+    "$oid": "6371d97608ef415eddf4bec2"
+  }
+},{
+  "_id": {
+    "$oid": "6371e5a6daf24622bdc423d5"
+  },
+  "rol": "contador",
+  "fecha_inicio": {
+    "$date": {
+      "$numberLong": "1647043200000"
+    }
+  },
+  "fecha_final": {
+    "$date": {
+      "$numberLong": "1755561600000"
+    }
+  },
+  "horario": "horas-9",
+  "sueldo": 6756,
+  "disponibilidad": "activo",
+  "Empresa_id": {
+    "$oid": "6371d9c908ef415eddf4bec3"
+  }
+},{
+  "_id": {
+    "$oid": "6371e5d4daf24622bdc423d6"
+  },
+  "rol": "contador",
+  "fecha_inicio": {
+    "$date": {
+      "$numberLong": "1646870400000"
+    }
+  },
+  "fecha_final": {
+    "$date": {
+      "$numberLong": "1771459200000"
+    }
+  },
+  "horario": "horas-8",
+  "sueldo": 2344,
+  "disponibilidad": "activo",
+  "Empresa_id": {
+    "$oid": "6371da1208ef415eddf4bec4"
+  }
+}]

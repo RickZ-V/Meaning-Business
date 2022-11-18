@@ -1,0 +1,229 @@
+[{
+  "_id": {
+    "$oid": "6371e653daf24622bdc423d9"
+  },
+  "description": "detalle de la informacion del contador",
+  "Formacion_academica": {
+    "titulo": "Contador público",
+    "fecha_egresado": {
+      "$date": {
+        "$numberLong": "1108857600000"
+      }
+    },
+    "Universidad": "Universidad Nacional Mayor de San Marcos"
+  },
+  "Formacion_Complementaria": {
+    "curso": "Contabilidad",
+    "fecha": {
+      "$date": {
+        "$numberLong": "1313798400000"
+      }
+    },
+    "estado": "finalizado"
+  },
+  "Experiencia_Laboral": {
+    "rol": "contador",
+    "nombre_empresa": "ZURA",
+    "detalle": "realizo exelente servicio",
+    "fecha_inicio": {
+      "$date": {
+        "$numberLong": "1298419200000"
+      }
+    },
+    "fecha_final": {
+      "$date": {
+        "$numberLong": "1322265600000"
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6371e9e7daf24622bdc423da"
+  },
+  "description": "detalle de la informacion del contador",
+  "Formacion_academica": {
+    "titulo": "Contador privado",
+    "fecha_egresado": {
+      "$date": {
+        "$numberLong": "1355270400000"
+      }
+    },
+    "Universidad": "Universidad Nacional de San Cristóbal de Huamanga"
+  },
+  "Formacion_Complementaria": {
+    "curso": "ANÁLISIS Y PRESENTACIÓN DE DATOS CON POWER BI",
+    "fecha": {
+      "$date": {
+        "$numberLong": "1457740800000"
+      }
+    },
+    "estado": "pendiente"
+  },
+  "Experiencia_Laboral": {
+    "rol": "asistente",
+    "nombre_empresa": "ZURICH",
+    "detalle": "realizo exelente servicio",
+    "fecha_inicio": {
+      "$date": {
+        "$numberLong": "1427241600000"
+      }
+    },
+    "fecha_final": {
+      "$date": {
+        "$numberLong": "1508716800000"
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6371eab5daf24622bdc423db"
+  },
+  "description": "detalle de la informacion del contador",
+  "Formacion_academica": {
+    "titulo": "Consultor contable",
+    "fecha_egresado": {
+      "$date": {
+        "$numberLong": "1322006400000"
+      }
+    },
+    "Universidad": "Universidad Nacional de San Cristóbal de Huamanga"
+  },
+  "Formacion_Complementaria": {
+    "curso": "GESTIÓN DE PROPIEDADES Y MANEJO DE AIRBNB",
+    "fecha": {
+      "$date": {
+        "$numberLong": "1550275200000"
+      }
+    },
+    "estado": "pendiente"
+  },
+  "Experiencia_Laboral": {
+    "rol": "secretario",
+    "nombre_empresa": "TAURUS",
+    "detalle": "realizo exelente servicio",
+    "fecha_inicio": {
+      "$date": {
+        "$numberLong": "1389657600000"
+      }
+    },
+    "fecha_final": {
+      "$date": {
+        "$numberLong": "1451174400000"
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6371eb48daf24622bdc423dc"
+  },
+  "description": "detalle de la informacion del contador",
+  "Formacion_academica": {
+    "titulo": "Contador fisca",
+    "fecha_egresado": {
+      "$date": {
+        "$numberLong": "1423180800000"
+      }
+    },
+    "Universidad": "Universidad Nacional Agraria La Molina"
+  },
+  "Formacion_Complementaria": {
+    "curso": "GESTIÓN COMERCIAL",
+    "fecha": {
+      "$date": {
+        "$numberLong": "1390262400000"
+      }
+    },
+    "estado": "finalizado"
+  },
+  "Experiencia_Laboral": {
+    "rol": "contador",
+    "nombre_empresa": "ZARAGOZA",
+    "detalle": "realizo exelente servicio",
+    "fecha_inicio": {
+      "$date": {
+        "$numberLong": "1302566400000"
+      }
+    },
+    "fecha_final": {
+      "$date": {
+        "$numberLong": "1324339200000"
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6371ebc4daf24622bdc423dd"
+  },
+  "description": "detalle de la informacion del contador",
+  "Formacion_academica": {
+    "titulo": "Contador gubernamental",
+    "fecha_egresado": {
+      "$date": {
+        "$numberLong": "952214400000"
+      }
+    },
+    "Universidad": "Universidad Nacional Jorge Basadre Grohmann"
+  },
+  "Formacion_Complementaria": {
+    "curso": "MARKETING DIGITAL",
+    "fecha": {
+      "$date": {
+        "$numberLong": "1538265600000"
+      }
+    },
+    "estado": "pendiente"
+  },
+  "Experiencia_Laboral": {
+    "rol": "asistente",
+    "nombre_empresa": "ARTESCO",
+    "detalle": "realizo exelente servicio",
+    "fecha_inicio": {
+      "$date": {
+        "$numberLong": "1528156800000"
+      }
+    },
+    "fecha_final": {
+      "$date": {
+        "$numberLong": "1605139200000"
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6371ec41daf24622bdc423de"
+  },
+  "description": "detalle de la informacion del contador",
+  "Formacion_academica": {
+    "titulo": "Contador público",
+    "fecha_egresado": {
+      "$date": {
+        "$numberLong": "1230940800000"
+      }
+    },
+    "Universidad": "Universidad Nacional Tecnológica de San Juan de Lurigancho"
+  },
+  "Formacion_Complementaria": {
+    "curso": "CONTABILIDAD Y FINANZAS",
+    "fecha": {
+      "$date": {
+        "$numberLong": "1350172800000"
+      }
+    },
+    "estado": "finalizado"
+  },
+  "Experiencia_Laboral": {
+    "rol": "contador",
+    "nombre_empresa": "PUMA",
+    "detalle": "realizo exelente servicio",
+    "fecha_inicio": {
+      "$date": {
+        "$numberLong": "1420675200000"
+      }
+    },
+    "fecha_final": {
+      "$date": {
+        "$numberLong": "1544486400000"
+      }
+    }
+  }
+}]

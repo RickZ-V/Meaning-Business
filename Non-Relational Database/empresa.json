@@ -1,0 +1,205 @@
+[{
+  "_id": {
+    "$oid": "6371d36f08ef415eddf4beb9"
+  },
+  "nombre": "IKEA",
+  "telefono": 9235461,
+  "Estructura_juridica": {
+    "nombre": "S.A",
+    "detalle": "Sociedades Anónimas"
+  },
+  "hubicacion": "Brasil",
+  "Empresario": {
+    "nombre": "Juan",
+    "apellidos": "Porras",
+    "telefono": 925589026,
+    "correo": "juanporras@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "6371d4f208ef415eddf4beba"
+  },
+  "nombre": "Fantaplaya",
+  "telefono": 53840108,
+  "Estructura_juridica": {
+    "nombre": "S.A.A",
+    "detalle": "Sociedad Anónima Abierta"
+  },
+  "hubicacion": "Noruega",
+  "Empresario": {
+    "nombre": "Juan",
+    "apellidos": "Porras",
+    "telefono": 925589026,
+    "correo": "juanporras@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "6371d6fb08ef415eddf4bebb"
+  },
+  "nombre": "Mocostar",
+  "telefono": 764565423,
+  "Estructura_juridica": {
+    "nombre": "S.A.C",
+    "detalle": "Sociedad Anónima Cerrada"
+  },
+  "hubicacion": "Francia",
+  "Empresario": {
+    "nombre": "Alberto",
+    "apellidos": "Coronel",
+    "telefono": 945343453,
+    "correo": "albertocoronel@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "6371d75608ef415eddf4bebc"
+  },
+  "nombre": "Responsaje",
+  "telefono": 23434324,
+  "Estructura_juridica": {
+    "nombre": "S.R.L",
+    "detalle": "Sociedad Comercial de Responsabilidad Limitada"
+  },
+  "hubicacion": "Cuba",
+  "Empresario": {
+    "nombre": "Daniel",
+    "apellidos": "Mendoza",
+    "telefono": 923423345,
+    "correo": "danielmendoza@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "6371d79608ef415eddf4bebd"
+  },
+  "nombre": "Perado",
+  "telefono": 634323433,
+  "Estructura_juridica": {
+    "nombre": "S.A",
+    "detalle": "Sociedades Anónimas"
+  },
+  "hubicacion": "Italia",
+  "Empresario": {
+    "nombre": "Daniel",
+    "apellidos": "Mendoza",
+    "telefono": 923423345,
+    "correo": "danielmendoza@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "6371d84e08ef415eddf4bebe"
+  },
+  "nombre": "Frencia",
+  "telefono": 234235354,
+  "Estructura_juridica": {
+    "nombre": "S.A.A",
+    "detalle": "Sociedad Anónima Abierta"
+  },
+  "hubicacion": "Malawi",
+  "Empresario": {
+    "nombre": "Luis",
+    "apellidos": "Torres",
+    "telefono": 934657123,
+    "correo": "luistorres@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "6371d88908ef415eddf4bebf"
+  },
+  "nombre": "Mármolchar",
+  "telefono": 234342342,
+  "Estructura_juridica": {
+    "nombre": "S.A.A",
+    "detalle": "Sociedad Anónima Abierta"
+  },
+  "hubicacion": "Argelia",
+  "Empresario": {
+    "nombre": "Alberto",
+    "apellidos": "Coronel",
+    "telefono": 945343453,
+    "correo": "albertocoronel@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "6371d8d408ef415eddf4bec0"
+  },
+  "nombre": "Frágino",
+  "telefono": 123123435,
+  "Estructura_juridica": {
+    "nombre": "S.A.C",
+    "detalle": "Sociedad Anónima Cerrada"
+  },
+  "hubicacion": "Senegal",
+  "Empresario": {
+    "nombre": "Luis",
+    "apellidos": "Torres",
+    "telefono": 934657123,
+    "correo": "luistorres@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "6371d92308ef415eddf4bec1"
+  },
+  "nombre": "Cerar",
+  "telefono": 234345656,
+  "Estructura_juridica": {
+    "nombre": "S.A",
+    "detalle": "Sociedades Anónimas"
+  },
+  "hubicacion": "Gibraltar",
+  "Empresario": {
+    "nombre": "Daniel",
+    "apellidos": "Mendoza",
+    "telefono": 923423345,
+    "correo": "danielmendoza@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "6371d97608ef415eddf4bec2"
+  },
+  "nombre": "Desadivelo",
+  "telefono": 342343434,
+  "Estructura_juridica": {
+    "nombre": "S.A.A",
+    "detalle": "Sociedad Anónima Abierta"
+  },
+  "hubicacion": "Sudáfrica",
+  "Empresario": {
+    "nombre": "Juan",
+    "apellidos": "Porras",
+    "telefono": 925589026,
+    "correo": "juanporras@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "6371d9c908ef415eddf4bec3"
+  },
+  "nombre": "Prepriva",
+  "telefono": 565675676,
+  "Estructura_juridica": {
+    "nombre": "S.A",
+    "detalle": "Sociedades Anónimas"
+  },
+  "hubicacion": "Serbia",
+  "Empresario": {
+    "nombre": "Alberto",
+    "apellidos": "Coronel",
+    "telefono": 945343453,
+    "correo": "albertocoronel@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "6371da1208ef415eddf4bec4"
+  },
+  "nombre": "portar",
+  "telefono": 23254545,
+  "Estructura_juridica": {
+    "nombre": "S.A.C",
+    "detalle": "Sociedad Anónima Cerrada"
+  },
+  "hubicacion": "Egipto",
+  "Empresario": {
+    "nombre": "Daniel",
+    "apellidos": "Mendoza",
+    "telefono": 923423345,
+    "correo": "danielmendoza@gmail.com"
+  }
+}]

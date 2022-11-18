@@ -1,0 +1,115 @@
+[{
+  "_id": {
+    "$oid": "6371ef96daf24622bdc42401"
+  },
+  "Estado": "pendiente",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1671926400000"
+    }
+  },
+  "Tipo_de_pago": {
+    "nombre": "Tarjeta de débito"
+  },
+  "Oferta_Laboral_id": {
+    "$oid": "6371db4b08ef415eddf4bec7"
+  },
+  "Contador_id": {
+    "$oid": "6371ecf5daf24622bdc423ec"
+  }
+},{
+  "_id": {
+    "$oid": "6371f05bdaf24622bdc42404"
+  },
+  "Estado": "finalizado",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1644451200000"
+    }
+  },
+  "Tipo_de_pago": {
+    "nombre": "Transferencia bancaria electrónica"
+  },
+  "Oferta_Laboral_id": {
+    "$oid": "6371dd4308ef415eddf4bec9"
+  },
+  "Contador_id": {
+    "$oid": "6371ee20daf24622bdc423ee"
+  }
+},{
+  "_id": {
+    "$oid": "6371f096daf24622bdc42405"
+  },
+  "Estado": "pendiente",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1661040000000"
+    }
+  },
+  "Tipo_de_pago": {
+    "nombre": "Tarjeta de crédito"
+  },
+  "Oferta_Laboral_id": {
+    "$oid": "6371dd9008ef415eddf4beca"
+  },
+  "Contador_id": {
+    "$oid": "6371ee5edaf24622bdc423ef"
+  }
+},{
+  "_id": {
+    "$oid": "6371f0c8daf24622bdc42406"
+  },
+  "Estado": "finalizado",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1640995200000"
+    }
+  },
+  "Tipo_de_pago": {
+    "nombre": "Cheques"
+  },
+  "Oferta_Laboral_id": {
+    "$oid": "6371dddb08ef415eddf4becb"
+  },
+  "Contador_id": {
+    "$oid": "6371eed1daf24622bdc423f0"
+  }
+},{
+  "_id": {
+    "$oid": "6371f109daf24622bdc42407"
+  },
+  "Estado": "pendiente",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1666483200000"
+    }
+  },
+  "Tipo_de_pago": {
+    "nombre": "Efectivo"
+  },
+  "Oferta_Laboral_id": {
+    "$oid": "6371de3508ef415eddf4becc"
+  },
+  "Contador_id": {
+    "$oid": "6371ef07daf24622bdc423f1"
+  }
+},{
+  "_id": {
+    "$oid": "6371f154daf24622bdc42408"
+  },
+  "Estado": "finalizado",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1644019200000"
+    }
+  },
+  "Tipo_de_pago": {
+    "nombre": "Pago móvil"
+  },
+  "Oferta_Laboral_id": {
+    "$oid": "6371de6b08ef415eddf4becd"
+  },
+  "Contador_id": {
+    "$oid": "6371ef4ddaf24622bdc423f2"
+  }
+}]
