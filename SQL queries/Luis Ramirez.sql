@@ -12,3 +12,14 @@ join Estructura_juridica Ej on E.Estructura_juridica_id = Ej.id
 join Oferta_Laboral OL on E.id = OL.Empresa_id
 where Ej.id=1 and OL.horario='horas-9' and Ol.sueldo > 3000
   or Ej.id=1 and OL.horario='horas-8' and Ol.sueldo > 3000
+  
+/*Mostrar el sueldo promedio de las ofertas laborales con un horario específico dado como dato*/
+ create function f_promedio_OF(@horario varchar(200)) returns int
+begin
+   declare @Quantity int
+   select @Quantity = avg(sueldo)
+   from Oferta_Laboral
+   where horario=@horario
+   return @Quantity
+end
+print dbo.f_promedio_OF('horas-10')
