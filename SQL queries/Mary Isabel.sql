@@ -16,3 +16,13 @@ create function f_buscar_x_sueldo(@sueldo_minimo int,@sueldo_maximo int)
    from Empresa E
        join Oferta_Laboral OL on E.id = OL.Empresa_id
    where sueldo<=@sueldo_maximo and sueldo>=@sueldo_minimo and disponibilidad='activo'
+   
+/*Tabla de contadores por meses de experiencia*/
+create function f_mayor_experiencia_laboral(@rol nvarchar(20)) returns table
+   return
+   select distinct datediff(month,fecha_inicio,fecha_final) as [meses de experiencia], nombre,apellido,telefono,correo
+   from [Experiencia_Laboral] EL
+      join Curriculum Cu on EL.id = Cu.Experiencia_Laboral_id
+      join Contador Co on Cu.id = Co.Curriculum_id
+   where Rol=@rol and detalle='realizo exelente servicio'
+select * from dbo.f_mayor_experiencia_laboral('contador')
