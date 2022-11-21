@@ -1,0 +1,27 @@
+/*Listar los nombre y apellidos de los contadores que tengan una formación académica de “Contador Público”.*/
+db.Contador.aggregate([
+{ "$lookup": {
+   "from": "Curriculum",
+   "foreignField": "_id",
+   "localField": "Curriculum_id",
+   "as": "Curriculum"
+}},
+{$unwind : "$Curriculum"},
+{$project: {
+      "nombre": 1 ,
+      "apellido":  1,
+        _id:0,
+       "Curriculum" :{
+              "Formacion_academica" : {
+                  "titulo":1
+              }
+        }
+      }
+},{ $match :{ Curriculum :{ Formacion_academica : {titulo:"Contador público"}}}}
+
+]);
+
+/*listar empresas que sean “sociedades anónimas”*/
+db.empresa.find({"Estructura_juridica.nombre": 
+'S.A'},{nombre:1,Estructura_juridica:{ nombre : 1 , detalle : 1},
+_id:0})

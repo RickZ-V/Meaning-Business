@@ -1,0 +1,44 @@
+/*Muestra la cantidad de empresas que tienen una oferta laboral activa y su sueldo es mayor a 2200*/
+db.Oferta_laboral.aggregate(
+   [
+       {$match:
+           {"sueldo":{$gt:2200},"disponibilidad":"activo"}
+       },
+       {
+           $group:{
+               _id: "$Empresa_id"
+           }
+       },
+       {
+           $count: "Cantidad"
+       }
+   ]
+);
+
+
+/*Muestra el nombre y disponibilidad de los contadores, así como el estado de su contrato.*/
+db.Contrato.aggregate([
+{
+   $lookup:
+   {
+   from: "Contador",
+   foreignField: "_id",
+   localField: "Contador_id",
+   as: "Contador"
+   }
+},
+{
+   $unwind : "$Contador"
+},
+{
+   $project:
+   {
+       _id:0,
+      "Estado": 1 ,
+        "Contador" :{
+              "nombre": 1 ,
+              "disponibilidad":1
+        }
+      }
+   }
+]);

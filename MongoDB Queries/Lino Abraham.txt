@@ -1,0 +1,49 @@
+/*Filtrar ofertas laborales para contador en las cuales se indexa un contador con buena disponibilidad de tiempo de “9 horas”*/
+db.Oferta_laboral.find({
+rol: "contador",
+ horario: 'horas-9',
+disponibilidad:"activo",
+sueldo: { $gte:3000}
+})
+
+/*se muestra la lista de los contadores con el horario y tipo de pago de su contrato*/
+db.Contrato.aggregate([
+ {
+    $lookup:
+    {
+    from: "Oferta_laboral",
+    foreignField: "_id",
+    localField: "Oferta_Laboral_id",
+    as: "Oferta_laboral"
+    }
+ },
+ {
+    $unwind : "$Oferta_laboral"
+ },
+ {
+    $lookup:
+    {
+    from: "Contador",
+    foreignField: "_id",
+    localField: "Contador_id",
+    as: "Contador"
+    }
+ },
+ {
+    $unwind : "$Contador"
+ },
+ {
+    $project:
+    {
+         _id:0,
+         "Tipo_de_pago": 1,
+         "Oferta_laboral" :{
+               "horario": 1 ,
+         },
+         "Contador":{
+         "nombre":1,
+         "apellido":1,
+         }
+       }
+    }
+]);

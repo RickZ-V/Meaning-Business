@@ -1,0 +1,31 @@
+/*Búsqueda de oferta laboral por fecha*/
+db.Oferta_laboral.aggregate([
+   {
+       $match:{
+           "$and": [{ fecha_inicio:{$gte:ISODate("2022-01-01T00:00:00Z")}},
+                    {fecha_inicio:{$lte:ISODate("2022-06-30T00:00:00Z")}},
+                    {horario:{$eq:"horas-8"}},
+                    {disponibilidad:{$eq:"activo"}}
+           ]
+       }
+   },
+   {
+$project:{_id:0,Empresa_id:0,horario:0,disponibilidad:0}
+   }
+])
+
+
+/*Contactar a una empresa por oferta laboral*/
+db.Oferta_laboral.aggregate([
+   {
+       $match:{ $and:[{sueldo:{$gte:3000}},{sueldo:{$lte:5000}},{disponibilidad:{$eq:"activo"}}]
+       }
+   },
+   {$sort:{sueldo:-1}},
+   {    $lookup:{from:"empresa",localField:"Empresa_id",foreignField:"_id",as:"Empresa_details"}
+   },
+   {$unwind:"$Empresa_details"},
+   {    $project:{_id:0,fecha_final:0,fecha_inicio:0,horario:0,disponibilidad:0,Empresa_id:0,"Empresa_details._id":0,"Empresa_details.hubicacion":0,"Empresa_details.Estructura_juridica":0,
+       }
+   }
+])

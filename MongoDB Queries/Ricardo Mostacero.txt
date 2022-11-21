@@ -1,0 +1,34 @@
+/*Se muestra el nombre, estado civil y número de teléfono del Contador.*/
+db.Contrato.aggregate([
+{
+  $lookup:
+  {
+  from: "Contador",
+  foreignField: "_id",
+  localField: "Contador_id",
+  as: "Contador"
+  }
+},
+{
+  $unwind : "$Contador"
+},
+{
+  $project:
+  {
+      _id:0,
+     "Estado": 1 ,
+       "Contador" :{
+             "nombre": 1 ,
+             "estado_civil": 1,
+             "telefono": 1
+       }
+     }
+  }
+]);
+
+/*Encontrar las ofertas de trabajo con sueldo mayor a 4000 con el rol de contador y que el horario sea menor que 10 horas*/
+db.Orfeta_Laboral.find({
+   horario: { $gt:'horas-10'},
+   rol: "contador",
+   sueldo: {$gt:4000}
+})
