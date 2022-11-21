@@ -11,3 +11,9 @@ from Contador Con
 where Con.disponibilidad='libre' and Con.estado_civil='soltero'
 group by Con.nombre, Con.apellido, Con.estado_civil
 order by count(Con.id)
+
+/*Cantidad de empresa que ofrezca un sueldo mayor a 4000 soles y su rango de 		horario no sea menor que 8 horas.*/
+select count(E.id)
+from Empresa E
+join Oferta_Laboral OL on E.id = OL.Empresa_id
+where OL.horario > 'horas-8' and Ol.sueldo > 4000
